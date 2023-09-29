@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   const addNumber = () => {
-    return 1 + 1
-   }
+    return 1 + 1;
+  };
+  const subtractNumber = () => {
+    return 1-+ 1;
+  };
+
   return (
     <div className="App">
       <header className="App-header">
